@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meme Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Meme Generator</h1>
+        <form class="memeForm">
+            <input type="url" name="imageUrl" id="imgUrlId" placeholder="IMAGE URL" required>
+            <input type="text" name="topTextInput" id="topTextInputId" placeholder="TOP TEXT">
+            <input type="text" name="botTextInput" id="botTextInputId" placeholder="BOTTOM TEXT">
+            <input type="submit" class="generate-btn">
+        </form>
+    </div>
+    <div class="memes">
+        <div class="wrapper">
+            <img class="meme"
+                src="https://static01.nyt.com/images/2020/01/28/multimedia/28xp-memekid3/28cp-memekid3-superJumbo.jpg">
+            <p class="topTxt">Meme Generator</p>
+            <p class="botTxt">Click to delete</p>
+            <p class="removeTxt">REMOVE</p>
+        </div>
+    </div>
+
+
+    <script src="form.js"></script>
+    <script src="generator.js"></script>
+</body>
+
+</html>
